@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Page Title</title>
+</head>
+<body>
+  <script>
+    let add7 = (number) => number + 7;
+    
+    console.log(add7(5));
+
+    let multiply = (a, b) => a * b;
+
+    console.log(multiply(3,2));
+
+    function capitalLetter(word){
+      let newWord = word.toLowerCase();
+      return newWord.charAt(0).toUpperCase() + newWord.slice(1);
+    }
+
+    console.log(capitalLetter('sISteR'));
+    
+    let lastLetter = (string) => string.slice(-1);
+
+    console.log(lastLetter('Shoes'));
+
+  </script>
+</body>
+</html>
